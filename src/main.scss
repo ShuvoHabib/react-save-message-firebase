@@ -1,8 +1,19 @@
 @import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css");
+
 $color: blue;
 
 body {
-  //color: $color;
-    margin: 0;
-    background-color: #F9F9F9;
+  margin: 0;
+  background-color: #F9F9F9;
+}
+
+.message-list {
+  >div{
+    padding: 10px;
+    background: #1abc9c;
+    display: inline-block;
+    border-radius: 25px;
+    margin-bottom: 5px;
+    color: white;
+  }
 }

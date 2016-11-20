@@ -12,7 +12,6 @@ class App extends React.Component {
         return (
             <div className="container">
                 <div>
-                    <ChannelList />
                     <MessageList />
                 </div>
                 <div className="col-xs-9">
