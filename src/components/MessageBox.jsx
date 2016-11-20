@@ -11,13 +11,13 @@ class MessageBox extends React.Component {
         this.firebaseRef = new Firebase('https://savedoc-62350.firebaseio.com/messages');
     }
 
-    onChange = (evt) => {
+    onChange(evt) {
         this.setState({
             message: evt.target.value
         });
-    };
+    }
 
-    onKeyUp = (evt) => {
+    onKeyUp(evt) {
         if (evt.keyCode === 13 && trim(evt.target.value) != '') {
             evt.preventDefault();
 
@@ -30,16 +30,15 @@ class MessageBox extends React.Component {
             });
 
         }
-    };
+    }
 
     render() {
         return (
             <div>
-                <input
-                    placeholder="Write your message"
+                <textarea
                     value={this.state.message}
-                    onChange={this.onChange}
-                    onKeyUp={this.onKeyUp}
+                    onChange={this.onChange.bind(this)}
+                    onKeyUp={this.onKeyUp.bind(this)}
                     style={{
                         width: '100%',
                         borderColor: '#D0D0D0',
@@ -49,7 +48,8 @@ class MessageBox extends React.Component {
                         color: '#555',
                         fontSize: 14,
                         outline: 'auto 0px'
-                    }}/>
+                    }}
+                />
             </div>
         );
     }
