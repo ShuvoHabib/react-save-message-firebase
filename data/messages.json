@@ -1,0 +1,16 @@
+{
+  "messages": {
+    "0": {
+        "message": "Hi there, how are you",
+        "date": "Wed, 08 Jul 2015 18:14:27 GMT",
+        "author": "Hendrik Swanepoel",
+        "profilePic": "http://www.gravatar.com/avatar/a424e1b0ab3a8dee82c25ae0f0804107?s=48&d=identicon"
+    },
+    "1": {
+        "message": "I am fine, and you?",
+        "date": "Wed, 08 Jul 2015 18:14:32 GMT",
+        "author": "Stewart Scott",
+        "profilePic": "http://www.gravatar.com/avatar/f544faf10969339692d6d0474050f8fe?s=48&d=identicon"
+    }
+  }
+}
