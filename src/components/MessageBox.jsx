@@ -35,21 +35,21 @@ class MessageBox extends React.Component {
     render() {
         return (
             <div>
-        <input
-            placeholder="Write your message"
-            value={this.state.message}
-            onChange={this.onChange}
-            onKeyUp={this.onKeyUp}
-            style={{
-                width: '100%',
-                borderColor: '#D0D0D0',
-                resize: 'none',
-                borderRadius: 3,
-                minHeight: 50,
-                color: '#555',
-                fontSize: 14,
-                outline: 'auto 0px'
-            }}/>
+                <input
+                    placeholder="Write your message"
+                    value={this.state.message}
+                    onChange={this.onChange}
+                    onKeyUp={this.onKeyUp}
+                    style={{
+                        width: '100%',
+                        borderColor: '#D0D0D0',
+                        resize: 'none',
+                        borderRadius: 3,
+                        minHeight: 50,
+                        color: '#555',
+                        fontSize: 14,
+                        outline: 'auto 0px'
+                    }}/>
             </div>
         );
     }
